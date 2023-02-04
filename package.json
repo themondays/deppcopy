@@ -1,0 +1,17 @@
+{
+  "name": "deppcopy",
+  "version": "1.0.2",
+  "main": "./index.js",
+  "description": "Native Dependency for Node.js is a high-performance C++ implementation of a deep copying function, designed to quickly and efficiently duplicate complex data structures in your app code.",
+  "scripts": {
+    "build": "node-gyp build",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themondays/deppcopy"
+  },
+  "keywords": ["deepcopy", "deppcopy", "deep-copy"],
+  "author": "Jared <jd@themondays.ca>",
+  "license": "MIT"
+}
